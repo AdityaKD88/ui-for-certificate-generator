@@ -1,20 +1,38 @@
 {% extends 'base.html' %}
 {% block body %}
+<style>
+.content{
+    margin-top: 30px;
+}
+header h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #2a2233;
+}
+
+header h1 strong {
+      color: #131016;
+      font-size: 83%;
+    }
+
+
+</style>
 
 <div class="content">
+    <div class="card-left">
+        
+    </div>
+    <header class="text-white text-center">
+        <h1 style="font-size: 30px;">Batch Certificate Generator for Digi<strong>podium</strong></h1>
+        <img src="../static/images/logo.png" alt="" width="80">
+    </header>
     <div class="row">
         <div class="col-sm-4 col-md-5 mx-auto mt-5">
             <form class="card" method="post" enctype="multipart/form-data">
-                <div class="card-header" style="background-color: rgb(186, 33, 33); color: rgb(239, 211, 176);">
-                    <p class="lead"
-                        style="text-align: center; margin-top: 2%;  font-family: 'Akaya Telivigala';font-size: 26px;">
-                        <b>Please Upload file</b>
-                    </p>
-                </div>
                 <div class="card-body"
                     style="background-color: rgb(250, 250, 250);  font-family: 'Akaya Telivigala';font-size: 22px;">
-                    <div class="form-group">
-                        <label for="imageId">File</label>
+                    <div class="form-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+                        <label for="imageId"></label>
                         <input type="file" name="file" class="form-control-file" name="filepath" id="filepath"
                             placeholder="browse the dataset" aria-describedby="imageHelp">
                     </div>

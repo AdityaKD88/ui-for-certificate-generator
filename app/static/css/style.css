@@ -1,6 +1,6 @@
 body {
   padding: 10px 0;
-  background: rgb(51, 172, 212);
+  background: rgb(233, 233, 233);
   font-family: 'Roboto';
   font-size: 30px;
   width: 100%;
@@ -9,7 +9,7 @@ body {
 }
 
 .container .row .col-md-6{
-  color: black;
+  color: rgb(230, 217, 217);
   margin-left: 250px;
 }
 
@@ -27,7 +27,7 @@ aside {
     width: 200px;
     padding-left: 20px;
     height: 100vh;
-    background-image: linear-gradient(30deg , #bd0000, #fd4444);
+    background-image: linear-gradient(278deg , #000, #4a0033);
     border-top-right-radius: 80px;
   }
   
@@ -46,7 +46,7 @@ aside {
     background: #fff;
     outline: none;
     position: relative;
-    background-color: rgb(51, 172, 212);
+    background-color: rgb(233, 233, 233);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
@@ -64,7 +64,7 @@ aside {
     height: 35px;
     width: 35px;
     border-bottom-right-radius: 18px;
-    box-shadow: 0 20px 0 0 rgb(51, 172, 212);
+    box-shadow: 0 20px 0 0 rgb(233, 233, 233);
   }
   
   aside a:hover::before {
@@ -76,7 +76,7 @@ aside {
     height: 35px;
     width: 35px;
     border-top-right-radius: 18px;
-    box-shadow: 0 -20px 0 0 rgb(51, 172, 212);
+    box-shadow: 0 -20px 0 0 rgb(233, 233, 233);
   }
 
   aside p {
